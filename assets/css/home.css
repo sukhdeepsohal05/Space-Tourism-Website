@@ -2,14 +2,16 @@ body {
   background: url("../images/background-home-desktop.jpg") center center/cover
     no-repeat;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
 }
 
 main {
   display: flex;
   align-items: center;
   width: 80%;
-  margin: 0px auto;
-  margin-top: 3rem;
+  margin: 3rem auto;
 }
 
 .details {
