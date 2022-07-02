@@ -39,7 +39,7 @@ nav {
     justify-content: center;
     list-style: none;
     background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(60px);
     height: 96px;
     width: 830px;
 }
