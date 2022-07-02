@@ -1,0 +1,86 @@
+body{
+    background: url('../images/background-technology-desktop.jpg') center center/cover no-repeat;
+}
+
+.technology-details{
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding-left: 300px;
+}
+
+.details-container{
+    max-width: 470px;
+}
+
+.details-container h4{
+    color: #D0D6F9;
+    font-size: 1rem;
+}
+
+.details-container h1{
+    font-size: 3.4rem;
+    margin: 1.3rem 0;
+}
+
+.details-container p{
+    color: #D0D6F9;
+    font-size: 1.125rem;
+}
+
+.technology-image{
+    width: 400px;
+    height: 440px;
+}
+
+.launch-vehicle-image{
+    background: url('../images/launch-vehicle-portrait.jpg') center center/100% no-repeat;
+}
+
+.spaceport-image{
+    background: url('../images/spaceport-portrait.jpg') center center/100% no-repeat;
+}
+
+.space-capsule-image{
+    background: url('../images/space-capsule-portrait.jpg') center center/100% no-repeat;
+}
+
+.slick-dots {
+    text-align: left;
+    left: 10vw;
+    bottom: 9vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 0%;
+    height: 350px;
+}
+
+.slick-dots li a{
+    border: 1px solid #ffffff40;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+}
+
+a.dot {
+    position: relative;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+
+a.dot:hover {
+    border: 1px solid #ffffff;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active a.dot {
+    background-color: #fff;
+    color: #000;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNOLOGY | Space Tourism Website</title>
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon" />
+    <!-- slider links start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slider links end -->
+    <!-- CSS Links Start -->
+    <link rel="stylesheet" href="../assets/css/shared.css" />
+    <link rel="stylesheet" href="../assets/css/technology.css" />
+    <link rel="stylesheet" href="../assets/css/media/shared.css" />
+    <link rel="stylesheet" href="../assets/css/media/technology.css" />
+    <!-- CSS Links End -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <figure>
+                <img src="../assets/images/logo.svg" />
+            </figure>
+            </div>
+            <div class="line"></div>
+            <input type="checkbox" id="checkbox" />
+            <div class="hamburger">
+            <div></div>
+            </div>
+            <ul class="menu">
+            <li>
+                <a href="../index.html"><span>00 </span>HOME</a>
+            </li>
+            <li>
+                <a href="destination.html"><span>01 </span>DESTINATION</a>
+            </li>
+            <li>
+                <a href="crew.html"><span>02 </span>CREW</a>
+            </li>
+            <li>
+                <a href="#" class="active"><span>03 </span>TECHNOLOGY</a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+  
+    <main>
+        <h1 class="main-heading"><span>02 </span>SPACE LAUNCH 101</h1>
+        <div class="tecnology-details-container fade">
+            <div class="technology-details">
+              <div class="details-container">
+                <h4>THE TERMINOLOGY ...</h4>
+                <h1>LOUNCH VEHICLE</h1>
+                <p>
+                  A launch vehicle or carrier rocket is a rocket-propelled vehicle
+                  used to carry a payload from Earth's surface to space, usually to
+                  Earth orbit or beyond. Our WEB-X carrier rocket is the most
+                  powerful in operation. Standing 150 metres tall, it's quite an
+                  awe-inspiring sight on the launch pad!
+                </p>
+              </div>
+              <div class="launch-vehicle-image technology-image">
+              </div>
+            </div>
+            <div class="technology-details">
+              <div class="details-container">
+                <h4>THE TERMINOLOGY ...</h4>
+                <h1>SPACEPORT</h1>
+                <p>
+                  A spaceport or cosmodrome is a site for launching (or receiving)
+                  spacecraft, by analogy to the seaport for ships or airport for
+                  aircraft. Based in the famous Cape Canaveral, our spaceport is
+                  ideally situated to take advantage of the Earth’s rotation for
+                  launch.
+                </p>
+              </div>
+              <div class="spaceport-image technology-image">
+              </div>
+            </div>
+            <div class="technology-details">
+              <div class="details-container">
+                <h4>THE TERMINOLOGY ...</h4>
+                <h1>SPACE CAPSULE</h1>
+                <p>
+                  A space capsule is an often-crewed spacecraft that uses a
+                  blunt-body reentry capsule to reenter the Earth's atmosphere
+                  without wings. Our capsule is where you'll spend your time during
+                  the flight. It includes a space gym, cinema, and plenty of other
+                  activities to keep you entertained.
+                </p>
+              </div>
+              <div class="space-capsule-image technology-image">
+              </div>
+            </div>
+          </div>
+    </main>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+      $(".fade").slick({
+        arrows: false,
+        autoplay: true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: "linear",
+        dots:true,
+        customPaging : function(slider, i) {
+        var thumb = $(slider.$slides[i]).data();
+        return '<a class="dot">'+(i+1)+'</a>';
+        },
+      });
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background: url('../images/background-crew-desktop.jpg') center center/100% no-repeat;
+}
+
+
+.slick-initialized .slick-slide {
+    display: flex;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+    bottom: 0px;
+}
+
+.slick-dots{
+    display: inline-block;
+    width: max-content;
+    bottom: 5vw;
+    left: 166px;
+}
+
+.slick-dots li button::before{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.slick-dots li button:focus:before, .slick-dots li button:hover:before {
+    opacity: 0.5;
+}
+
+
+.member-details{
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.details{
+    width: 40%;
+    margin-left: 166px;
+}
+
+.details h2{
+    color: #ffffff80;
+}
+
+.details h1{
+    color: #fff;
+    margin: 30px 0px;
+}
+
+.details p{
+    color: #c3c8e2;
+    text-align: justify;
+}
+
+.member-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.member-image img{
+    width: 47.8%;
+}

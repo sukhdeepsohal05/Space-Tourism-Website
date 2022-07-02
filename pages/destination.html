@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DESTINATION | Space Tourism Website</title>
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon" />
+    <!-- CSS Links Start -->
+    <link rel="stylesheet" href="../assets/css/shared.css" />
+    <link rel="stylesheet" href="../assets/css/destination.css" />
+    <link rel="stylesheet" href="../assets/css/media/shared.css" />
+    <link rel="stylesheet" href="../assets/css/media/destination.css" />
+    <!-- CSS Links End -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <figure>
+            <img src="../assets/images/logo.svg" />
+          </figure>
+        </div>
+        <div class="line"></div>
+        <input type="checkbox" id="checkbox" />
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <ul class="menu">
+          <li>
+            <a href="../index.html"><span>00 </span>HOME</a>
+          </li>
+          <li>
+            <a href="#" class="active"><span>01 </span>DESTINATION</a>
+          </li>
+          <li>
+            <a href="crew.html"><span>02 </span>CREW</a>
+          </li>
+          <li>
+            <a href="technology.html"><span>03 </span>TECHNOLOGY</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="main-heading"><span>01 </span>PICK YOUR DESTINATION</h1>
+      <div class="planets-wrapper">
+        <ul class="planets-ul">
+            <li class="active" data-name="moon">MOON</li>
+            <li data-name="mars">MARS</li>
+            <li data-name="europa">EUROPA</li>
+            <li data-name="titan">TITAN</li>
+        </ul>
+        <div class="planets">
+          <div class="planet active" data-name="moon">
+            <figure>
+              <img src="../assets/images/moon.png" alt="" />
+            </figure>
+            <div class="moon-details details">
+              <h1>MOON</h1>
+              <p>
+                See our planet as you’ve never seen it before. A perfect relaxing
+                trip away to help regain perspective and come back refreshed.
+                While you’re there, take in some history by visiting the Luna 2
+                and Apollo 11 landing sites.
+              </p>
+              <div class="travel-details">
+                <div>
+                  <h5>AVG. DISTANCE</h3>
+                  <h2>384,400 KM</h2>
+                </div>
+                <div>
+                  <h5>EST. TRAVEL TIME</h3>
+                  <h2>3 Days</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="planet" data-name="mars">
+              <figure>
+                  <img src="../assets/images/mars.png" alt="" />
+              </figure>
+            <div class="mars-details details">
+              <h1>MARS</h1>
+              <p>
+                Don’t forget to pack your hiking boots. You’ll need them to tackle
+                Olympus Mons, the tallest planetary mountain in our solar system.
+                It’s two and a half times the size of Everest!
+              </p>
+              <div class="travel-details">
+                <div>
+                  <h5>AVG. DISTANCE</h3>
+                  <h2>225 MIL. KM</h2>
+                </div>
+                <div>
+                  <h5>EST. TRAVEL TIME</h3>
+                  <h2>9 MONTHS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="planet" data-name="europa">
+              <figure>
+                  <img src="../assets/images/europa.png" alt="" />
+              </figure>
+            <div class="europa-details details">
+              <h1>EUROPA</h1>
+              <p>
+                The smallest of the four Galilean moons orbiting Jactiveiter, Europa
+                is a winter lover’s dream. With an icy surface, it’s perfect for a
+                bit of ice skating, curling, hockey, or simple relaxation in your
+                snug wintery cabin.
+              </p>
+              <div class="travel-details">
+                <div>
+                  <h5>AVG. DISTANCE</h3>
+                  <h2>628 MIL. KM</h2>
+                </div>
+                <div>
+                  <h5>EST. TRAVEL TIME</h3>
+                  <h2>3 YEAR</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="planet" data-name="titan">
+              <figure>
+                  <img src="../assets/images/titan.png" alt="" />
+              </figure>
+            <div class="titan-details details">
+              <h1>TITAN</h1>
+              <p>
+                The only moon known to have a dense atmosphere other than Earth,
+                Titan is a home away from home (just a few hundred degrees
+                colder!). As a bonus, you get striking views of the Rings of
+                Saturn.
+              </p>
+              <div class="travel-details">
+                <div>
+                  <h5>AVG. DISTANCE</h3>
+                  <h2>1.6 BIL. KM</h2>
+                </div>
+                <div>
+                  <h5>EST. TRAVEL TIME</h3>
+                  <h2>7 YEARS</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="../assets/js/shared.js"></script>
+    <script src="../assets/js/destination.js"></script>
+  </body>
+</html>

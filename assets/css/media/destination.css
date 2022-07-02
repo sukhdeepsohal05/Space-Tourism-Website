@@ -1,0 +1,84 @@
+@media screen and (max-width:768px) {
+    body{
+        background: url('../../images/background-destination-tablet.jpg')center top/100% 100% no-repeat;
+        height: 1024px;
+    }
+
+    .planets-wrapper ul {
+        justify-content: center;
+        width: 100%;
+        margin-top: 20rem;
+        font-size: 16px;
+    }
+
+    .planet{
+        flex-direction: column;
+    }
+
+    .planet figure{
+        margin-top: -22rem;
+        width: 100%;
+    }
+
+    .planet figure img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .details{
+        width: 100%;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .details h1{
+        font-size: 5rem;
+    }
+
+    .details p{
+        width: 75%;
+        margin: 0px auto;
+        font-size: 16px;
+    }
+
+    .travel-details {
+        width: 45%;
+        margin: 25px auto;
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width:426px) {
+    body{
+        background: url('../../images/background-destination-mobile.jpg') center center/cover no-repeat;
+        height: 150vh;
+    }
+
+    .planets-wrapper ul{
+        margin-top: 19rem;
+    }
+
+    .planets-wrapper ul li{
+        margin: 0px 10px;
+    }
+
+    .planet figure{
+        margin-top: -19rem;
+    }
+
+    .planet figure img{
+        width: 250px;
+        height: 250px;
+    }
+
+    .details h1{
+        font-size: 4rem;
+    }
+
+    .travel-details{
+        height: 140px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

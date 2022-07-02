@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DESTINATION | Space Tourism Website</title>
+    <link rel="shortcut icon" href="../assets/images/favicon.png" type="image/x-icon" />
+    <!-- slider links start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- slider links end -->
+    <!-- CSS Links Start -->
+    <link rel="stylesheet" href="../assets/css/shared.css" />
+    <link rel="stylesheet" href="../assets/css/crew.css" />
+    <link rel="stylesheet" href="../assets/css/media/shared.css" />
+    <link rel="stylesheet" href="../assets/css/media/crew.css" />
+    <!-- CSS Links End -->
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <figure>
+            <img src="../assets/images/logo.svg" />
+          </figure>
+        </div>
+        <input type="checkbox" id="checkbox" />
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <ul class="menu">
+          <li>
+            <a href="../index.html"><span>00 </span>HOME</a>
+          </li>
+          <li>
+            <a href="destination.html"><span>01 </span>DESTINATION</a>
+          </li>
+          <li>
+            <a href="#" class="active"><span>02 </span>CREW</a>
+          </li>
+          <li>
+            <a href="technology.html"><span>03 </span>TECHNOLOGY</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="main-heading"><span>02 </span>MEET YOUR CREW</h1>
+      <div class="crew-details fade">
+        <div class="member-details">
+          <div class="details">
+            <h2>COMMANDER</h2>
+            <h1>DOUGLAS HURLEY</h1>
+            <p>
+              Douglas Gerald Hurley is an American engineer, former Marine Corps
+              pilot and former NASA astronaut. He launched into space for the
+              third time as commander of Crew Dragon Demo-2.
+            </p>
+          </div>
+          <div class="member-image">
+            <img src="../assets/images/douglas-hurley.png" alt="" />
+          </div>
+        </div>
+        <div class="member-details">
+          <div class="details">
+            <h2>MISSION SPECIALIST</h2>
+            <h1>MARK SHUTTLEWORTH</h1>
+            <p>
+              Mark Richard Shuttleworth is the founder and CEO of
+              Canonical, the company behind the Linux-based Ubuntu
+              operating system. Shuttleworth became the first South
+              African to travel to space as a space tourist.
+            </p>
+          </div>
+          <div class="member-image">
+            <img src="../assets/images/mark-shuttleworth.png" alt="" />
+          </div>
+        </div>
+        <div class="member-details">
+          <div class="details">
+            <h2>PILOT</h2>
+            <h1>VICTOR GLOVER</h1>
+            <p>
+              Pilot on the first operational flight of the SpaceX Crew
+              Dragon to the International Space Station. Glover is a
+              commander in the U.S. Navy where he pilots an F/A-18.He
+              was a crew member of Expedition 64, and served as a
+              station systems flight engineer.
+            </p>
+          </div>
+          <div class="member-image">
+            <img src="../assets/images/victor-glover.png" alt="" />
+          </div>
+        </div>
+        <div class="member-details">
+          <div class="details">
+            <h2>FIGHT ENGINEER</h2>
+            <h1>ANOUSHEH ANSARI</h1>
+            <p>
+              Anousheh Ansari is an Iranian American engineer and
+              co-founder of Prodea Systems. Ansari was the fourth
+              self-funded space tourist, the first self-funded woman to
+              fly to the ISS, and the first Iranian in space.
+            </p>
+          </div>
+          <div class="member-image">
+            <img src="../assets/images/anousheh-ansari.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script type="text/javascript">
+      $('.fade').slick({
+        arrows:false,
+        autoplay:true,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        dots:true
+      });
+    </script>
+
+
+
+    <script src="../assets/js/shared.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+@media screen and (max-width:768px){
+    body{
+        background: url('../../images/background-crew-tablet.jpg') center center/cover no-repeat;
+        overflow: auto;
+    }
+
+    .slick-initialized .slick-slide {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .slick-dots{
+        top: 310px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .member-details{
+        min-height: 84vh;
+    }
+
+    .details{
+        width: 70%;
+        margin-left: 0px;
+        margin-bottom: 60px;
+    }
+
+    .details h1{
+        margin: 15px 0px;
+    }
+
+    .details p{
+        text-align: center;
+    }
+
+    .member-image{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:426px){
+    body{
+        background: url('../../images/background-crew-mobile.jpg') center center/cover no-repeat;
+
+    }
+
+    .slick-initialized .slick-slide {
+        flex-direction: column-reverse;
+    }
+    
+    .member-details{
+        min-height: 72vh;
+        justify-content: space-evenly;
+    }
+
+    .details{
+        width: 75%;
+    }
+
+    .member-image{
+        width: 90%;
+        border-bottom: 2px solid #4a4a4a;
+        margin-bottom: 40px;
+    }
+
+    .member-image img{
+        width: 32%;
+    }
+
+    .slick-dots {
+        top: 180px;
+        left: 0px;
+        width: 100%;
+        display: block;
+        transform: translate(0%, 0%);
+    }
+}
+
+@media screen and (max-width:375px){
+    .slick-dots{
+        top: 155px;
+    }
+}
+@media screen and (max-width:320px){
+    .slick-dots{
+        top: 130px;
+    }
+}
