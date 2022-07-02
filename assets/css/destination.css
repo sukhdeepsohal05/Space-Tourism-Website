@@ -1,7 +1,6 @@
 body{
     background: url('../images/background-destination-desktop.jpg') center center/cover no-repeat;
     height: 100vh;
-    overflow: hidden;
 }
 
 .planets-wrapper ul{
