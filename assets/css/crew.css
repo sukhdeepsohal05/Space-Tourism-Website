@@ -1,5 +1,7 @@
 body{
     background: url('../images/background-crew-desktop.jpg') center center/100% no-repeat;
+    height: 100vh;
+    overflow: hidden;
 }
 
 
